@@ -20,4 +20,17 @@ fun main() {
   var concat= dog + ", I've a feeling we're not in " +
   state+" anymore. " + movie + ", 1939"
   print(concat)
+
+  // concatenare MEGLIO ( con $)
+  val plant = "orchid"
+  val potSize = 6 
+  val dayNum = 7 
+
+  println("An $plant in a $potSize inch pot must be watered every $dayNum days.")
+
+
+  // USER INPUT readLine()
+  println("Please type your name and hit Enter.")
+  val myName = readLine()
+  println("Your name is $myName!")
 }
